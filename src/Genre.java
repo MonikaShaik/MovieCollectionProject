@@ -1,8 +1,8 @@
-public class GenreName
+public class Genre
 {
   private String genreName;
 
-  public GenreName(String genreName)
+  public Genre(String genreName)
   {
     this.genreName = genreName;
   }
@@ -28,7 +28,7 @@ public class GenreName
     {
       return false;
     }
-    GenreName other = (GenreName) obj;
+    Genre other = (Genre) obj;
     return genreName.equals(other.genreName);
   }
 }
