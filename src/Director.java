@@ -2,6 +2,11 @@ public class Director
 {
   private String director;
 
+  public Director()
+  {
+    director = "unknown";
+  }
+
   public Director(String director)
   {
     this.director = director;

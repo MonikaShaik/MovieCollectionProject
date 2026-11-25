@@ -2,6 +2,11 @@ public class Status
 {
   private String status;
 
+  public Status()
+  {
+    status = "NotWatched";
+  }
+
   public Status(String status)
   {
     this.status = status;
