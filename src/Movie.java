@@ -1,16 +1,16 @@
 public class Movie
  {
   private String title;
-  private final Year releaseYear;
-  private final GenreList genres;
-  private final Director director;
+  private Year releaseYear;
+  private GenreList genres;
+  private Director director;
   private Status status;
 
   public Movie(Year releaseYear, String title) {
     this.title = title;
     this.releaseYear =  releaseYear;
     this.genres = new GenreList();//ask allen
-    this.director = director;
+    this.director = new Director() ;
   }
 
 
