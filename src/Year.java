@@ -32,4 +32,9 @@ public class Year
     return year == other.year;
   }
 
+  public Year copy()
+  {
+    return new Year(year);
+  }
+
 }
